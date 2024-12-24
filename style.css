@@ -5,17 +5,20 @@
 }
 body{
     background-image: url(photo-1469854523086-cc02fe5d8800.jpeg);
+
 }
 header{
+background-color:transparent;
     height: 60px;
     align-items: center;
   display: flex;
   justify-content: space-around;
+  box-shadow: 0px 0px 30px rgba(165, 42, 42, 0.466);
+  backdrop-filter: blur(30px);
     
 }
 #container{
     width: 90%;
-
     margin: 0;
 }
 ul{
@@ -29,6 +32,7 @@ li{
 li a{
     text-decoration: none;
     color: black;
+    
 }
 #main{
    
@@ -49,21 +53,28 @@ li a{
 #button{
 padding: 10px 20px;
 font-size: 1rem;
-background-color: rgba(255, 255, 255, 0.267);
+background-color:transparent ;
+backdrop-filter: blur(30px);
+box-shadow: 0px 0px 20px;
+
 border-radius: 10px;
 width:200px ;
+margin-left: 60px;
+margin-top: 10px;
 
 
 } 
 #hero-content h1{
     color: rgb(87, 87, 87);
     font-size: 3rem;
+    background-color: rgba(165, 42, 42, 0.055);
+    border-radius: 10px;
 }
 #hero-content p{
     color: rgba(0, 52, 223, 0.959) ;
+    background-color: rgba(165, 42, 42, 0.055);
+    border-radius: 10px;
     font-size: 1.5rem;
     margin-left:  60px;
     margin-top: 10px ;
 }
-
-  
